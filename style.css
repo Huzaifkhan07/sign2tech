@@ -142,7 +142,7 @@ header{
 
 .header-right{
     width: 100%;
-    max-height: 70vh;
+    max-height: 80vh;
     padding: 10px;
     display: flex;   
 }
@@ -274,11 +274,11 @@ header{
     align-items: center;
     background-color: var(--contact-bg-color);
     height: 70vh;
+    width: 100%;
     margin-block: 15px;
     padding-block: 5px;   
 }
 .contact_form{
-    height: 100%;
     background-color: var(--contact-bg-color);
     position: relative;
     width: 45%;
