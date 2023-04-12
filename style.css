@@ -199,9 +199,12 @@ header{
     margin-top: 20px;
 }
 .category-image{
-    min-width: 35vw;
-    max-height: 65%;
+       min-width: 35vw;
+    max-height: 75%;
     width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .categories-part{
     flex-direction: column;
