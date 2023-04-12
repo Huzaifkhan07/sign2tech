@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./img/short.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <title>Sign2tech Landing page</title>
+</head>
+<body> 
+        <nav class="header-top flex">
+            <div class="logo flex">
+                <img src="./img/full.jpg" alt="logo">
+            </div>
+            <div class="nav-links">
+               <ul class="flex">
+                   <li><a href="#" class="active">Home</a></li>
+                   <li><a href="#">Services</a></li>
+                   <li><a href="#">About us</a></li>
+                   <li><a href="#">Contact us</a></li>
+               </ul>
+            </div>
+        </nav>
+        <header>
+            <div class="main-header flex container">
+                <div class="header-left flex">
+                    <h1 class="tagline">Start your FREE learning Right Now!!</h1>
+                    <p class="sub-tagline para">The only platform for getting Premium-courses, paid-internships & Job opportunities which helps in making you employable </p>
+                    <a href="#" class="primary-button get-started-btn">Get Started</a>
+                </div>
+                <div class="header-right">
+                    <img src="./img/main-img.jpg" alt="study">
+                </div>
+            </div>
+        </header>
+    <section class="getting">
+        <div class="h1-container">
+            <h1 class="center">Don't wait... you will get</h1>
+        </div>
+        <div id="getting-section" class="flex">
+            <div class="box center flex">
+                <img src="./img/certificate.jpg" alt="certification">
+                <h3>Verified Certificates</h3>
+                <p> Online certifications can especially help you if you're a recent graduate with not a lot of work experience.</p>
+            </div>
+            <div class="box center flex">
+                <img src="./img/projects.jpg" alt="projects">
+                <h3>Hands on Projects</h3>
+                <p>Projects helps to strengthen your core skills and prepares you to face future challenges.</p>
+            </div>
+            <div class="box center flex">
+                <img src="./img/webinars.jpg" alt="webinars">
+                <h3>Live Webinars</h3>
+                <p>Webinars allows to attain new knowledge with one on doubt solving, that can complement in our skills.</p>
+            </div>
+        </div>
+
+    </section>
+    <div class="category-section container">
+        <div class="center">
+            <h1>Here we offer</h1> <h1 class="alert">&nbsp;Alerts&nbsp; </h1> <h1>regarding</h1>
+        </div>
+
+        <div class="categories-part flex">
+            
+            <div class="category" id="category-1">
+                <div class="category-image">
+                    <img src="./img/course.jpg" alt="courses" class="category-image">  
+                </div>
+                    <div class="category-content">
+                        <h2>100% OFF coupon code on Premium Courses</h2>
+                        <p class="category-info para">
+                            You can find best Premium Courses Promo Codes and get the best saving on your online learning.
+                            Unlike most Course providers, Sign2tech team clean all expired coupon and try to only provide active coupon for you.</p>  
+                        <a href="#" class="primary-button">Learn more</a>
+                    </div>
+            </div>
+
+            <div class="category" id="category-2">
+                <div class="category-image">
+                    <img src="./img/internship.jpg" alt="internships" class="category-image">  
+                </div>
+                    <div class="category-content">
+                        <h2>Industrial Oriented Internships</h2>
+                        <p class="category-info para">
+                            Get exposure to the real world by apply the knowledge you have acquired during an internship to your future workplaces.</p>  
+                            <a href="#" class="primary-button">Learn more</a>    
+                    </div>
+            </div>
+            
+            <div class="category" id="category-3">
+                <div class="category-image">
+                    <img src="./img/placement.jpg" alt="Off-campus Placements" class="category-image">  
+                </div>
+                    <div class="category-content">
+                        <h2>Daily Off-Campus Placement Drives</h2>
+                        <p class="category-info para">
+                            Get explorer of Off-Campus hiring to various companies and get free rights to choose where you want to apply. </p>  
+                            <a href="#" class="primary-button">Learn more</a>
+                    </div>
+            </div>
+
+            <div class="category" id="category-4">
+                <div class="category-image">
+                    <img src="./img/Working_at_home_vector.jpg" alt="Remote Jobs" class="category-image">
+                </div>
+                    <div class="category-content">
+                        <h2>Work From Home Jobs</h2>
+                        <p class="category-info para">
+                            The marketplace and community that connects and matches companies with remote professionals</p>  
+                            <a href="#" class="primary-button">Learn more</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- services section -->
+    <section class="service-section flex">
+        <h2>Other Services</h2>
+        <!-- <div class="service flex">
+            <img width="100%" srcset=" 
+            ./img/service-small.png 767w,
+            ./img/pics-png.png 825w
+            "
+            sizes="(max-width: 767px) 767px,
+            (max-width: 825px) 825px,1000px" 
+             src="./img/pics-jpg.jpg" alt="">        
+        </div> -->
+        <picture class="service flex">
+            <source
+                srcset="./img/pics-jpg.jpg"
+                media="(min-width: 767px)"
+            >
+            <img src="./img/service-small.png" alt="">
+        </picture>
+    </section>
+
+    <!-- contact-us section -->
+    <section class="contact_us flex">
+        <div class="contact_form">
+            <h2 >Contact us</h2>
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name : </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email : </label>
+                    <input type="email" name="email" id="email" placeholder="xyz@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone : </label>
+                    <input type="phone" name="name" id="phone" placeholder="+91">
+                </div>
+                <div class="form-group">
+                    <label for="message">message : </label>
+                   <textarea name="message" id="message" rows="4"></textarea>
+                </div>
+                <div class="submit-button">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="contact_image">
+            <img src="./img/contact.jpg" alt="">
+        </div>
+    </section>
+        <footer >
+            <section class="footer-section flex container">
+                <div class="footer-image transparent_bg">
+                    <img src="./img/short.jpg" alt="">
+                </div>
+                <div class="footer-links flex transparent_bg">
+                    <ul class="flex transparent_bg">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul> 
+                    <ul class="flex transparent_bg">
+                        <li><a href="#">Disclaimer</a></li>
+                        <li><a href="#">Affiliate Disclosure</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>                   
+                </div>
+                <div class="footer-content flex transparent_bg ">
+                    <h2>Join us on</h2>
+                    <div class="join-us flex">
+                        <a href="#" class="flex"><img src="./img/instagram_color.svg" alt=""></a>
+                        <a href="#" class="flex"><img src="./img/linkedin_color.svg" alt=""></a>
+                    </div>
+                    <div class="join-us flex">
+                        <a href="#" class="flex"><img src="./img/telegram_color.svg" alt=""></a>
+                        <a href="#" class="flex"><img src="./img/whatsapp.svg" alt=""></a>    
+                    </div>
+                </div>
+            </section>
+        </footer>
+    <div class="sub-footer">
+        <div class="center">
+            sign2tech2@gmail.com
+        </div>
+        <div class="center">
+            Copyright &copy; www.sign2tech.com All rights reserved!
+        </div>
+     </div>
+</body>
+</html> 
