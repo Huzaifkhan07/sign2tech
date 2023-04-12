@@ -200,7 +200,7 @@ header{
 }
 .category-image{
     min-width: 35vw;
-    min-height: 80vh;
+    max-height: 70vh;
     width: 95%;
 }
 .categories-part{
