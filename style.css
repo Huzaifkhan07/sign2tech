@@ -200,7 +200,7 @@ header{
 }
 .category-image{
     min-width: 35vw;
-    max-height: 60%;
+    max-height: 65%;
     width: 95%;
 }
 .categories-part{
@@ -273,7 +273,7 @@ header{
     justify-content: space-evenly;
     align-items: center;
     background-color: var(--contact-bg-color);
-    height: 80vh;
+    height: 70vh;
     margin-block: 15px;
     padding-block: 5px;   
 }
