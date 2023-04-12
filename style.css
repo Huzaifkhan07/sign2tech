@@ -283,7 +283,7 @@ header{
 }
 .contact_form{
     background-color: var(--contact-bg-color);
-    position: relative;
+    /* position: relative; */
     width: 45%;
     height: 85%;
 }
