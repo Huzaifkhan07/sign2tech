@@ -18,6 +18,10 @@
     .get-started-btn{ 
         width: 30vw;
     }
+
+    .footer-links {
+        width: 65%;
+    }
     
 }
 @media screen and (max-width: 767px){
@@ -191,6 +195,19 @@
     footer{
         height: 100vh ;
     }
+
+    .footer-image{
+        display: none;
+    }
+    
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 36%;
+        text-align: center;
+    } 
+
     .footer-content{
         width: 100%;
         height: 40%;
@@ -198,15 +215,15 @@
         gap: 15px;
     }
     .footer-links ul li{
-        text-align: start;
+        font-size: 1.1rem;
     }
     .join-us{
         width: 95%;
         height: 12vh;
     }
     .join-us img {
-        height: 10vh;
-        width: 25vw;
+        height: 12vh;
+        width: 23vw;
     }
     .sub-footer{
         height: 13vh;

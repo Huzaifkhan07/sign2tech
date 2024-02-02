@@ -4,6 +4,9 @@
     box-sizing: border-box;
     background-color: #ffffff;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Nunito', sans-serif;
     color: var(--primary-text-color);
@@ -276,7 +279,6 @@ header{
     justify-content: space-evenly;
     align-items: center;
     background-color: var(--contact-bg-color);
-    height: 55vh;
     width: 100%;
     margin-block: 15px;
     padding-block: 5px;   
@@ -384,12 +386,13 @@ footer{
     margin: 5px;
     height: 11vh;
     background-color: transparent;
-    width: 5vw;
     border-radius: 5px;
     transition: 0.2s ease-out;
 }
 .join-us img:hover{
-    padding-bottom: 2px;
+    /* padding-bottom: 2px; */
+    /* transform: skew(10deg); */
+    transform: scale(1.2, 1.2);
 }
 .footer-links{
     
@@ -405,7 +408,6 @@ footer{
     gap: 10px;
 }
 .footer-links ul li{
-    text-align: center;
     text-decoration: none;
     list-style: none;
     background-color: transparent;
