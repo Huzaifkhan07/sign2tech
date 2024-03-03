@@ -252,7 +252,7 @@
         flex-direction: column;
         flex-wrap: nowrap;
         width: 80vw;
-        height: 26vh;
+        height: 80vw;
         margin-block: 3vw;
     }
     .box h3{
