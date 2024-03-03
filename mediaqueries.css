@@ -234,6 +234,9 @@
     .container{
         max-width: 99%;
     }
+    .header-top {
+    height: 12vw;
+    }
     .main-header{
         justify-content: space-evenly;
     }
