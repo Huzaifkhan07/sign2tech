@@ -249,9 +249,10 @@
     }
     .box{
         padding: 1.2vw 1.6vw;
-        /* width: 80vw; */
-        height: 26vh;
         flex-direction: column;
+        flex-wrap: nowrap;
+        width: 80vw;
+        height: 26vh;
         margin-block: 3vw;
     }
     .box h3{
@@ -318,7 +319,7 @@
       box-shadow: 0px 5px 15px #ebebeb;
     }
     .upper {
-      height: 50vw;
+      /* height: 50vw; */
       background-color: #F4EAFC;
       border-radius: 9px 9px 0 0;
       border-left: 2px solid #ccc;
@@ -331,7 +332,7 @@
       object-fit: cover;
     }
     .lower {
-      height: 80vw;
+      /* height: 80vw; */
       flex-direction: column;
       justify-content: space-around;
       border-radius: 0 0 9px 9px;
