@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+
+    <!-- font  -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <title>Sign2tech Landing page</title>
 </head>
@@ -133,16 +135,84 @@
     <!-- services section -->
     <section class="service-section flex">
         <div class="flex h1-container">
-            <h1>Other Services</h1>
+            <h1 class="other-service flex">Other Services
+                <!-- Know more Hyperlink -->
+                <div class="knowmore flex">
+                    <a href="#">Know more</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                        <path d="M6.028 0v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12" fill="#4d0099"/>
+                    </svg>      
+                </div>
+            </h1>
         </div>
         <picture class="service flex">
             <source
                 srcset="./img/pics-jpg.jpg"
                 media="(min-width: 1200px)"
             >
-            <img src="./img/service-small.png" alt="">
+            <img src="./img/service-small.png">
         </picture>
+
+        <!-- mobile service showing part -->
+        <div class="mobile-Service container flex">
+
+            <div class="service-container">
+              <div class="upper">
+                <img src="./img/web-dev.jpg">
+              </div>
+              <div class="lower flex">
+                <h1 class="title">Web Development & Design</h1>
+                <p class="title-content">Sign2tech's dedicated team specializes in crafting bespoke web solutions, ensuring brand alignment and business readiness. We meticulously engineer digital products to ignite creativity, ultimately maximizing your ROI and bolstering your online presence</p>  
+                <!-- Know more Hyperlink -->
+                <div class="knowmore flex">
+                    <a href="#">Know more</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                        <path d="M6.028 0v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12" fill="#4d0099"/>
+                    </svg>      
+                </div>
+              </div>
+            </div>
+        
+            <div class="service-container">
+              <div class="upper">
+                <img src="./img/graphic design.jpg">
+              </div>
+              <div class="lower flex">
+                <h1 class="title">Graphic Design</h1>
+                <p class="title-content">Our talented designers at Sign2tech create captivating visuals for brochures, banners, logos, and more. Leave a lasting impression with our professional and creative designs, establishing a vibrant online presence for your business with expertise and flair</p>  
+                <!-- Know more Hyperlink -->
+                <div class="knowmore flex">
+                    <a href="#">Know more</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                        <path d="M6.028 0v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12" fill="#4d0099"/>
+                    </svg>
+                      
+                </div>
+              </div>
+            </div>
+        
+            <div class="service-container">
+              <div class="upper">
+                <img src="./img/Enterprise Software Asset.jpg">
+              </div>
+              <div class="lower flex">
+                <h1 class="title">Enterprise Software</h1>
+                <p class="title-content">Our Skilled Engineers deliver cutting-edge Enterprise Software Solutions tailored to streamline your operations and drive growth. Our expertise ensures scalable, secure, and intuitive solutions that empower your business to thrive in the digital landscape</p>  
+                <!-- Know more Hyperlink -->
+                <div class="knowmore flex">
+                    <a href="#">Know more
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                            <path d="M6.028 0v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12" fill="#4d0099"/>
+                        </svg>
+                    </a>
+                        
+                </div>
+              </div>
+            </div>
+    
+        </div>
     </section>
+    
 
     <!-- contact-us section -->
     <section class="contact_us flex" id="contact">
@@ -174,7 +244,6 @@
             <img src="./img/contact.jpg" alt="">
         </div>
     </section>
-
 
     <!-- Footer Start  -->
         <footer>
@@ -250,6 +319,6 @@
         <div class="center">
             Copyright &copy; www.sign2tech.com All rights reserved!
         </div>
-     </div>
+    </div>
 </body>
 </html> 
