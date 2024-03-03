@@ -70,6 +70,34 @@ gap: 0.5vw;
 background-color: var(--accent-color-dark);
 }
 
+.knowmore{
+    padding: 0.8rem 1.7rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    gap: 0.5vw;
+}
+.knowmore a{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.knowmore svg{
+    vertical-align: baseline;
+    margin-block: auto;
+    /* margin-top: 0.2rem; */
+}
+
+
+.knowmore a, .knowmore svg{
+    transition: all 0.3s ease-in-out;
+    color: var(--accent-color-dark);
+}
+
+.knowmore a:hover, .knowmore svg{
+    color: var(--accent-color);
+}
+
 
 
 
@@ -294,9 +322,16 @@ background-color: var(--accent-color-dark);
     padding: 0.8vw 0vw 0.5vw 2vw;
     margin-left: 3vw;
     margin-block: auto;
-    width: 50%;
+    width: 70%;
     height: 8vw;
     border-bottom: 1px solid var(--accent-color-dark);
+}
+.other-service{
+    justify-content: space-around;
+    gap: 10vw;
+}
+.other-service .knowmore{
+   align-items: center;
 }
 .service{
     width: 100%;
@@ -307,6 +342,9 @@ background-color: var(--accent-color-dark);
 .service img{
     height: 100%;
     width: 100%;
+}
+.service-section .mobile-Service{
+    display: none;
 }
 
 
@@ -329,14 +367,14 @@ background-color: var(--accent-color-dark);
     color: #ffffff;
     word-spacing: 5px;
     text-shadow: 1px 1px 4px black;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
 }
 
 .contact_form{
     background-color: var(--contact-bg-color);
     /* position: relative; */
     width: 40%;
-    height: 85%;
+    /* height: 85%; */
 }
 label{
     display: block;
